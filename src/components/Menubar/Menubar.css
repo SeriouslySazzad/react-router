@@ -1,0 +1,56 @@
+.menubar{
+    background-color: black;
+}
+.navbar {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navbar ul li {
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.logo li {
+    font-size: 30px;
+    color: cyan;
+}
+
+.logo li:hover {
+    color: lightcoral;
+}
+
+.items {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.items:hover {
+    background-color: darkcyan;
+    color: lightblue;
+    border-radius: 5px;
+}
+
+.nav-items ul {
+    margin-left: 550px;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+}
+
+.nav-items ul {
+    margin-left: 650px;
+}

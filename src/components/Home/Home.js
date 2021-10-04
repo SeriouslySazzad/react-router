@@ -1,11 +1,14 @@
 import React from 'react';
-import Posts from '../Posts/Posts';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+import Service from '../Service/Service';
 
 const Home = () => {
     return (
         <div>
-            <h2>This is Home</h2>
-            <Posts></Posts>
+            <Header></Header>
+            <Service></Service>
+            <Footer></Footer>
         </div>
     );
 };

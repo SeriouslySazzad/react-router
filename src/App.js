@@ -1,57 +1,53 @@
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './components/Home/Home';
-import Friends from './components/Friends/Friends';
+import NotFound from './components/NotFound/NotFound';
 import About from './components/About/About';
-import NotFound from './NotFound/NotFound';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import FriendDetail from './components/FriendDetail/FriendDetail';
-import Culture from './components/Culture/Culture';
-import PostDetail from './components/PostDetail/PostDetail';
+import Services from './components/Services/Services';
+import Store from './components/Store/Store';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+        <Router>
+          <Switch>
 
-      <Router>
-        <Header></Header>
-        <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
 
-          <Route path="/home">
-            <Home></Home>
-          </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
 
-          <Route path='/friends'>
-            <Friends></Friends>
-          </Route>
+            <Route path="/services">
+            <Header></Header>
+              <Services></Services>
+              <Footer></Footer>
+            </Route>
 
-          <Route path="/friend/:friendId">
-            <FriendDetail></FriendDetail>
-          </Route>
+            <Route path="/about">
+              <Header></Header>
+              <About></About>
+              <Footer></Footer>
+            </Route>
 
-          <Route path="/post/:postId">
-            <PostDetail></PostDetail>
-          </Route>
+            <Route path="/store">
+              <Header></Header>
+              <Store></Store>
+              <Footer></Footer>
+            </Route>
+            
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
 
-          <Route exact path="/about">
-            <About></About>
-          </Route>
 
-          <Route path="/about/culture">
-            <Culture></Culture>
-          </Route>
-
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-
-          <Route exact path="*">
-            <NotFound></NotFound>
-          </Route>
-
-        </Switch>
-
-      </Router>
+          </Switch>
+        </Router>
+      
     </div>
   );
 }

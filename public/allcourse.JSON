@@ -1,0 +1,79 @@
+[
+    {
+        "key": "01",
+        "name": "Physics",
+        "img": "https://image.shutterstock.com/image-vector/chalkboard-inscribed-scientific-formulas-calculations-260nw-583783498.jpg",
+        "fee": 200,
+        "seat": 20
+    },
+    {
+        "key": "02",
+        "name": "Chemistry",
+        "img": "https://images.theconversation.com/files/121885/original/image-20160510-20731-1pf8nwv.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+        "fee": 250,
+        "seat": 24
+    },
+    {
+        "key": "03",
+        "name": "Mathematics",
+        "img": "https://cdn.leverageedu.com/blog/wp-content/uploads/2020/08/24201930/What-is-the-difference-between-Mathematics-and-Statistics_.png",
+        "fee": 199,
+        "seat": 27
+    },
+    {
+        "key": "04",
+        "name": "English",
+        "img": "https://studyabroad.shiksha.com/mediadata/images/articles/english-word-concept-picture-id10894210001.jpg",
+        "fee": 207,
+        "seat": 29
+    },
+    {
+        "key": "05",
+        "name": "IELTS",
+        "img": "https://www.britishcouncil.org.bd/sites/default/files/ielts_red_-_new_ielts_landing_page_preview_image.png",
+        "fee": 300,
+        "seat": 12
+    },
+    {
+        "key": "06",
+        "name": "Marketing",
+        "img": "https://w7.pngwing.com/pngs/239/823/png-transparent-digital-marketing-services-marketing-business-digital-market-search-engine-optimization-text-service.png",
+        "fee": 345,
+        "seat": 67
+    },
+    {
+        "key": "07",
+        "name": "Economics",
+        "img": "https://www.thebalancecareers.com/thmb/QgM7gkJ4cRHqQr3ejARVGdRSrbY=/1500x1000/filters:fill(auto,1)/top-jobs-for-economics-majors-2059650_FINAL-428ca1607c3b47cea499d2eb46d26b10.png",
+        "fee": 206,
+        "seat": 65
+    },
+    {
+        "key": "08",
+        "name": "Accounting",
+        "img": "https://cdn.corporatefinanceinstitute.com/assets/accounting.jpeg",
+        "fee": 256,
+        "seat": 24
+    },
+    {
+        "key": "09",
+        "name": "Geography",
+        "img": "https://w7.pngwing.com/pngs/239/823/png-transparent-digital-marketing-services-marketing-business-digital-market-search-engine-optimization-text-service.png",
+        "fee": 123,
+        "seat": 76
+    },
+    {
+        "key": "10",
+        "name": "Archaeology",
+        "img": "https://cdn.britannica.com/w:400,h:300,c:crop/22/92022-050-DDA23F00/Pachacamac-Archaeologists-finds-Peru-conquistadors-command-Francisco-1532-ce.jpg",
+        "fee": 897,
+        "seat": 78
+    },
+    {
+        "key": "11",
+        "name": "Basic English",
+        "img": "https://studyabroad.shiksha.com/mediadata/images/articles/english-word-concept-picture-id10894210001.jpg",
+        "fee": 192,
+        "seat": 18
+    }
+]

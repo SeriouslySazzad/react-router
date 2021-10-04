@@ -1,0 +1,30 @@
+[
+    {
+        "key": "01",
+        "name": "Physics",
+        "img": "https://image.shutterstock.com/image-vector/chalkboard-inscribed-scientific-formulas-calculations-260nw-583783498.jpg",
+        "fee": 200,
+        "seat": 20
+    },
+    {
+        "key": "02",
+        "name": "Chemistry",
+        "img": "https://images.theconversation.com/files/121885/original/image-20160510-20731-1pf8nwv.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip",
+        "fee": 250,
+        "seat": 24
+    },
+    {
+        "key": "03",
+        "name": "Mathematics",
+        "img": "https://cdn.leverageedu.com/blog/wp-content/uploads/2020/08/24201930/What-is-the-difference-between-Mathematics-and-Statistics_.png",
+        "fee": 199,
+        "seat": 27
+    },
+    {
+        "key": "04",
+        "name": "English",
+        "img": "https://studyabroad.shiksha.com/mediadata/images/articles/english-word-concept-picture-id10894210001.jpg",
+        "fee": 207,
+        "seat": 29
+    }
+]

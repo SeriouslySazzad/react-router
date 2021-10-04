@@ -1,0 +1,19 @@
+.single-course img {
+    width: 300px;
+    border-radius: 10px;
+    height: 220px;
+}
+
+.single-course {
+    display: flex;
+    padding-top: 40px;
+}
+.course-setails {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.course-setails p {
+    font-size: 18px;
+    font-weight: 700;
+}
